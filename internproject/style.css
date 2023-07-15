@@ -1,16 +1,21 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
-    border: 1px solid green;
+    /* border: 1px solid green; */
+}
+
+::-webkit-scrollbar {
+display: none;
 }
 
 body{
     min-height: 100vh;
+    min-width: 100vh;
 }
 
 /* Navigation Bar */
@@ -34,10 +39,10 @@ body{
     left: 50px;
 }
 
-.logo-text{
+.logo-text{ 
     font-size: 32px;
     position:relative;
-    right: 60px;
+    right: 200px;
     text-decoration: none;
     color: #fff;
 }
@@ -100,17 +105,72 @@ body{
 .primary-button:hover{
     background-color: #c0aff8c7 ;
 }
+/* End of Banner Style */
 
+
+/* Our Story Section */
+#story{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color:   #ccc0ff;
+
+}
 
 .col-5{
     text-align: center;
 }
 
+.story-logo{
+    height: 450px;
+    width: 450px;
+    padding: 0;
+    margin: 0;
+}
+
 .col-7{
     color: #000;
-    padding-top: 6rem;
+    padding-top: 80px;
+    margin: 0;
+}
+
+.col-7 h2{
+    padding-bottom: 20px;
 }
 
 #story{
     padding: 5rem;
+}
+
+#vid{
+    height: 280vh;
+    display: flex;
+    background-color: #30235fc7;
+}
+
+.col-12 .head2{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.col-12 .head3{
+    margin-top: 50px;
+}
+
+.card-img-top{
+    padding: 20px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-self: center;
+}
+
+.card-group{
+    height: 300px;
+    margin: 50px;
+}
+
+.card{
+    margin: 40px;
 }
