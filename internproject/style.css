@@ -183,4 +183,42 @@ body{
 );
     box-shadow: 4px 4px 5px #333;
 }
+
+.card-text{
+    color: white;
+}
+
+.card-title{
+    color: white;
+}
 /* End of Promotion Vid and Expertise Section  */
+
+#team{
+    height: 100vh;
+    background-color:#ccc0ff;
+    display: flex;
+    align-items: center;
+}
+
+.primary-button2{
+    background-color:   #6f619cc7;
+    border: none;
+    padding:10px 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.primary-button2:hover{
+    background-color: #845ffcc7 ;
+}
+
+.new-12 h2{
+    color: #30235fc7;
+}
+
+.new-12 p{
+    color: #30235fc7;
+}
